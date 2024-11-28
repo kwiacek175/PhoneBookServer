@@ -26,6 +26,7 @@ Klienci mogą się łączyć z serwerem, wysyłać zapytania i odbierać odpowie
 ## 3. Struktura plików
 - `PhoneBookServer.java`: Implementacja serwera, który nasłuchuje na porcie i obsługuje klientów.
 - `PhoneBook.java`: Klasa zawierająca logikę zarządzania książką telefoniczną.
+- `PhoneBookClient.java`: Klasa reprezentująca klienta, który łączy się z serwerem i wysyła zapytania.
 - `ClientThread.java`: Klasa, która tworzy wątki do obsługi klientów i realizuje komunikację.
 - `Tester.java`: Klasa uruchamiająca serwer i symulująca działanie dwóch klientów.
 
